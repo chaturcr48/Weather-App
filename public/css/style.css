@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    justify-content: center;
+}
+fieldset {
+    height: 200px;
+    /*background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg");*/
+    background-image: url("/images/ClimateImage.jpg");
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    width: 500px;
+}
+input{
+    padding: 10px;
+    border: none;
+    background-color: cyan;
+}
+.input:hover{
+    border: none;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+p{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.484);
+}
